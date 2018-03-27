@@ -1,0 +1,15 @@
+{
+  "name": "msg",
+  "description": "github msg notice",
+  "version": "1.0.0",
+  "type": "project",
+  "keywords": [
+    "notice",
+    "github"
+  ],
+  "autoload": {
+    "psr-4": {
+      "app\\": ""
+    }
+  }
+}
