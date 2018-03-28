@@ -14,7 +14,7 @@ class Config {
 	const TOKEN = '123';
 
 	public static $triggerRepository = [
-		'lyingbug/blog-posts' => '/bin/bash /usr/local/task/sync_blog_posts.sh'
+		'lyingbug/blog-posts' => 'cd /root/code/blog_pages; /usr/bin/git pull;'
 	];
 
 }
